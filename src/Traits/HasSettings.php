@@ -14,6 +14,7 @@ declare(strict_types=1);
 namespace BrianFaust\Settingable\Traits;
 
 use BrianFaust\Settingable\Models\Setting;
+use BrianFaust\Settingable\Store;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait HasSettings
